@@ -5,9 +5,9 @@ console.log('Starting...')
 function createBot () {
     const bot = mineflayer.createBot({
     host: "localhost",
-    port: "25565",
-    username: "Test",
-    version: false
+    port: "50206",
+    username: "bot_aternos22222232",
+    version: 1.12.2
     })
     bot.on('login', function() {
       bot.chat('/reginster 123123123 123123123')
